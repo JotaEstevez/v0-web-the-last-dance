@@ -67,9 +67,14 @@ export function Footer() {
               <span className="cursor-default text-[15px] text-[#F0EBE3]/30">
                 Instagram (pronto)
               </span>
-              <span className="cursor-default text-[15px] text-[#F0EBE3]/30">
-                LinkedIn (pronto)
-              </span>
+              <a
+                href="https://www.linkedin.com/company/the-last-dance-company/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[15px] text-[#F0EBE3]/80 transition-colors hover:text-[#F0EBE3]"
+              >
+                LinkedIn
+              </a>
             </div>
           </div>
         </div>
