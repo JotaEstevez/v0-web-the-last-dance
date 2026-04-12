@@ -107,9 +107,9 @@ export function About() {
             Por qué existe TLD
           </h3>
 
-          <div className="grid items-start gap-10 lg:grid-cols-12 lg:gap-14">
-            {/* Image - 4 of 12 cols */}
-            <div className="relative aspect-[3/4] overflow-hidden lg:col-span-4">
+          <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-14">
+            {/* Image - 5 of 12 cols */}
+            <div className="relative aspect-[4/5] overflow-hidden lg:col-span-5">
               <Image
                 src="/images/why-tld.png"
                 alt="Espacio de trabajo elegante"
@@ -118,8 +118,8 @@ export function About() {
               />
             </div>
 
-            {/* Content - 8 of 12 cols */}
-            <div className="flex flex-col gap-8 lg:col-span-8">
+            {/* Content - 7 of 12 cols */}
+            <div className="flex flex-col gap-8 lg:col-span-7">
               {/* El problema */}
               <div>
                 <p className="mb-3 text-[12px] font-medium uppercase tracking-[0.2em] text-foreground/50">
