@@ -98,6 +98,61 @@ export function About() {
           </div>
         </div>
 
+        {/* Why TLD block */}
+        <div className="mt-20 border-t border-border pt-16">
+          <p className="mb-6 text-sm uppercase tracking-[0.3em] text-muted-foreground">
+            Nuestra historia
+          </p>
+          <h3 className="mb-12 max-w-4xl font-serif text-[32px] leading-[1.15] text-balance md:text-[48px] lg:text-[64px]">
+            Por qué existe TLD
+          </h3>
+
+          <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-14">
+            {/* Image - 5 of 12 cols */}
+            <div className="relative aspect-[3/4] overflow-hidden lg:col-span-5">
+              <Image
+                src="/images/why-tld.png"
+                alt="Espacio de trabajo elegante"
+                fill
+                className="object-cover object-left"
+              />
+            </div>
+
+            {/* Content - 7 of 12 cols */}
+            <div className="flex flex-col gap-8 lg:col-span-7">
+              {/* El problema */}
+              <div>
+                <p className="mb-3 text-[12px] font-medium uppercase tracking-[0.2em] text-foreground/50">
+                  El problema
+                </p>
+                <p className="text-[17px] leading-[1.65] text-muted-foreground md:text-[19px]">
+                  The Last Dance nace de una pregunta que nos llevamos haciendo años: ¿por qué la consultoría buena solo está al alcance de las empresas grandes? La respuesta es obvia: es muy cara. Y lo es por dos razones — requiere talento muy senior, escaso y costoso, y se vende por horas a precio de oro.
+                </p>
+              </div>
+
+              {/* La solución */}
+              <div>
+                <p className="mb-3 text-[12px] font-medium uppercase tracking-[0.2em] text-foreground/50">
+                  La solución
+                </p>
+                <p className="text-[17px] leading-[1.65] text-muted-foreground md:text-[19px]">
+                  Pensando en cómo solucionar ese problema para que sea accesible para cualquier empresa, decidimos desarrollar nuestra propia tecnología de IA — un sistema que multiplica nuestra capacidad: automatiza todo el trabajo estructural y documental de cada proyecto, reduciendo drásticamente la dependencia de horas senior.
+                </p>
+              </div>
+
+              {/* Lo que nos hace únicos */}
+              <div>
+                <p className="mb-3 text-[12px] font-medium uppercase tracking-[0.2em] text-foreground/50">
+                  Lo que nos hace únicos
+                </p>
+                <p className="text-[17px] leading-[1.65] text-muted-foreground md:text-[19px]">
+                  Llevamos 25 años dirigiendo organizaciones en grupos líderes, y esa combinación — experiencia real y tecnología propia — nos permite acompañar a empresas medianas con el mismo rigor que una big four, a una fracción del coste y del tiempo, añadiendo lo que más valor tiene: el acompañamiento humano en cada proceso.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Results block integrated */}
         <div
           ref={resultsRef}
