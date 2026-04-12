@@ -109,12 +109,12 @@ export function About() {
 
           <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-14">
             {/* Image - 5 of 12 cols */}
-            <div className="relative aspect-[4/5] overflow-hidden lg:col-span-5">
+            <div className="relative aspect-[3/4] overflow-hidden lg:col-span-5">
               <Image
                 src="/images/why-tld.png"
                 alt="Espacio de trabajo elegante"
                 fill
-                className="object-cover"
+                className="object-cover object-left"
               />
             </div>
 
