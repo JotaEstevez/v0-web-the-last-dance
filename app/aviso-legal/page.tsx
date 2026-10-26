@@ -4,7 +4,7 @@ import { LegalFooter } from "@/components/legal-footer"
 
 export const metadata: Metadata = {
   title: "Aviso Legal | The Last Dance",
-  description: "Aviso legal de The Last Dance Human Impact Lab S.L.",
+  description: "Aviso legal de TLD HUMAN IMPACT LAB, SL",
 }
 
 export default function AvisoLegalPage() {
@@ -27,11 +27,11 @@ export default function AvisoLegalPage() {
                 Datos identificativos
               </h2>
               <div className="flex flex-col gap-3 text-[16px] leading-[1.7] text-muted-foreground">
-                <p><strong className="text-foreground">Titular:</strong> The Last Dance Human Impact Lab S.L.</p>
-                <p><strong className="text-foreground">CIF:</strong> [PENDIENTE]</p>
-                <p><strong className="text-foreground">Domicilio Social:</strong> [PENDIENTE]</p>
-                <p><strong className="text-foreground">Email:</strong> [PENDIENTE]</p>
-                <p><strong className="text-foreground">Registro Mercantil:</strong> [PENDIENTE]</p>
+                <p><strong className="text-foreground">Titular:</strong> TLD HUMAN IMPACT LAB, SL</p>
+                <p><strong className="text-foreground">NIF:</strong> B26922559</p>
+                <p><strong className="text-foreground">Domicilio social:</strong> Av. Manoteras, 38, Pta. 07, Esc. C — 28050 Madrid</p>
+                <p><strong className="text-foreground">Email:</strong> <a href="mailto:jestevez@thelastdance.company" className="break-words underline underline-offset-4">jestevez@thelastdance.company</a></p>
+                <p><strong className="text-foreground">Registro Mercantil:</strong> Madrid, sección 8, hoja M-883477, inscripción 1.ª, de 6 de abril de 2026</p>
               </div>
             </section>
 
@@ -41,7 +41,7 @@ export default function AvisoLegalPage() {
                 Objeto social
               </h2>
               <p className="text-[16px] leading-[1.7] text-muted-foreground">
-                The Last Dance Human Impact Lab S.L. (en adelante, "The Last Dance") es una empresa
+                TLD HUMAN IMPACT LAB, SL (en adelante, "The Last Dance") es una empresa
                 dedicada al acompañamiento estratégico, consultoría relacional e impulso de conexiones
                 de valor para empresas, instituciones y líderes. A través de este sitio web, The Last Dance
                 ofrece información sobre sus servicios profesionales y facilita el contacto con potenciales
@@ -129,7 +129,7 @@ export default function AvisoLegalPage() {
             {/* Última actualización */}
             <div className="border-t border-border pt-8">
               <p className="text-[13px] italic text-muted-foreground">
-                Última actualización: febrero 2026
+                Última actualización: 26 de octubre de 2026
               </p>
             </div>
           </div>

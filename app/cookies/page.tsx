@@ -4,7 +4,7 @@ import { LegalFooter } from "@/components/legal-footer"
 
 export const metadata: Metadata = {
   title: "Política de Cookies | The Last Dance",
-  description: "Política de cookies de The Last Dance Human Impact Lab S.L.",
+  description: "Política de cookies de TLD HUMAN IMPACT LAB, SL",
 }
 
 export default function CookiesPage() {
@@ -175,7 +175,7 @@ export default function CookiesPage() {
             {/* Última actualización */}
             <div className="border-t border-border pt-8">
               <p className="text-[13px] italic text-muted-foreground">
-                Última actualización: febrero 2026
+                Última actualización: 26 de octubre de 2026
               </p>
             </div>
           </div>

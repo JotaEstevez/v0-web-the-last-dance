@@ -4,7 +4,7 @@ import { LegalFooter } from "@/components/legal-footer"
 
 export const metadata: Metadata = {
   title: "Política de Privacidad | The Last Dance",
-  description: "Política de privacidad y protección de datos de The Last Dance Human Impact Lab S.L.",
+  description: "Política de privacidad y protección de datos de TLD HUMAN IMPACT LAB, SL",
 }
 
 export default function PrivacidadPage() {
@@ -27,10 +27,10 @@ export default function PrivacidadPage() {
                 Responsable del tratamiento
               </h2>
               <div className="flex flex-col gap-3 text-[16px] leading-[1.7] text-muted-foreground">
-                <p><strong className="text-foreground">Identidad:</strong> The Last Dance Human Impact Lab S.L.</p>
-                <p><strong className="text-foreground">CIF:</strong> [PENDIENTE]</p>
-                <p><strong className="text-foreground">Dirección:</strong> [PENDIENTE]</p>
-                <p><strong className="text-foreground">Correo electrónico:</strong> [PENDIENTE]</p>
+                <p><strong className="text-foreground">Identidad:</strong> TLD HUMAN IMPACT LAB, SL</p>
+                <p><strong className="text-foreground">NIF:</strong> B26922559</p>
+                <p><strong className="text-foreground">Dirección:</strong> Av. Manoteras, 38, Pta. 07, Esc. C — 28050 Madrid</p>
+                <p><strong className="text-foreground">Correo electrónico:</strong> <a href="mailto:jestevez@thelastdance.company" className="break-words underline underline-offset-4">jestevez@thelastdance.company</a></p>
               </div>
             </section>
 
@@ -105,8 +105,11 @@ export default function PrivacidadPage() {
                   <li><strong className="text-foreground">Limitación:</strong> solicitar la limitación del tratamiento en determinadas circunstancias.</li>
                 </ul>
                 <p>
-                  Para ejercer estos derechos, puede dirigirse a [PENDIENTE] indicando el derecho que desea
-                  ejercer y acompañando una copia de su documento de identidad.
+                  Para ejercer estos derechos, puede escribir a{" "}
+                  <a href="mailto:jestevez@thelastdance.company" className="break-words underline underline-offset-4">jestevez@thelastdance.company</a>
+                  {" "}o dirigirse por escrito a la dirección indicada en esta política, identificándose e indicando
+                  el derecho que desea ejercer. Solo se solicitará información adicional para verificar su
+                  identidad cuando existan dudas razonables sobre ella.
                 </p>
                 <p>
                   Si considera que sus derechos no han sido debidamente atendidos, tiene derecho a presentar
@@ -153,7 +156,7 @@ export default function PrivacidadPage() {
             {/* Última actualización */}
             <div className="border-t border-border pt-8">
               <p className="text-[13px] italic text-muted-foreground">
-                Última actualización: febrero 2026
+                Última actualización: 26 de octubre de 2026
               </p>
             </div>
           </div>
